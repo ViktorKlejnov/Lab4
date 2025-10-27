@@ -3,7 +3,7 @@ import sys
 import os
 import random
 def typewriter (text, delay=0.05):
-    """Simulates tyoing effect"""
+    """Simulates typing effect"""
     for char in text:
         sys.stdout.write(char)
         sys.stdout.flush()
